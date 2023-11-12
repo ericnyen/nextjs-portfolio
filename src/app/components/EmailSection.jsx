@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const EmailSection = () => {
+  {/*
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -38,7 +39,7 @@ const EmailSection = () => {
       setEmailSubmitted(true);
     }
   };
-
+ */}
   return (
     <section
       id="contact"
@@ -64,13 +65,14 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
+      
       <div>
-        {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
-            Email sent successfully!
-          </p>
-        ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+        
+       
+          
+       
+         
+          <form className="flex flex-col">
             <div className="mb-6">
               <label
                 htmlFor="email"
@@ -124,7 +126,7 @@ const EmailSection = () => {
               Send Message
             </button>
           </form>
-        )}
+        
       </div>
     </section>
   );

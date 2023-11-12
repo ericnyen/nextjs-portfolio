@@ -6,6 +6,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import WatsonChat from "./components/WatsonChat";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
+        <WatsonChat />
       </div>
       <Footer />
     </main>
