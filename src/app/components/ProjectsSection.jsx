@@ -7,54 +7,54 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    title: "At Your Fingertips",
+    description: "Eco Incentive Bot on Mobile",
+    image: "/images/projects/eco-app2.png",
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Fresh like Watermelons",
+    description: "Get Up to Date info on our ChatBot",
+    image: "/images/projects/watermelon.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    title: "Feel Special",
+    description: "Personalized recommendations catered to you",
+    image: "/images/projects/eco-girl3.png",
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
+    title: "On The Go",
+    description: "Use our ChatBot anywhere you like",
+    image: "/images/projects/eco-guy.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "Think About the Trees",
+    description: "Take in this wonderful scenery",
+    image: "/images/projects/tree.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    title: "Now You Know",
+    description: "A Guide on How to Recycle",
+    image: "/images/projects/recycle.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -82,7 +82,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Our Features
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
