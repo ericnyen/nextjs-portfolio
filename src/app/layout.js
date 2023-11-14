@@ -8,8 +8,8 @@ export const metadata = {
   title: { default: "Eco Incentive Bot", template: "%s | Eco Incentive Bot" },
   description: "Eco Incentive Bot",
   openGraph: {
-    title: "Eco Incentive",
-    description: "🍉",
+    title: "🍉",
+    description: "Eco Incentive",
     url: "https://watsonassistantxi.com",
     siteName: "",
     images: {
