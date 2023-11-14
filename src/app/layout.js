@@ -11,9 +11,9 @@ export const metadata = {
     title: "Eco Incentive",
     description: "🍉",
     url: "https://watsonassistantxi.com",
-    siteName: "Watson ChatBot",
+    siteName: "",
     images: {
-      url: "",
+      url: "https://watson-xi.vercel.app/og.png",
       width: 1920,
       height: 1080,
     },
