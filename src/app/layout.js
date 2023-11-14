@@ -13,7 +13,7 @@ export const metadata = {
     url: "https://watsonassistantxi.com",
     siteName: "",
     images: {
-      url: "https://watson-xi.vercel.app/og.png",
+      url: "https://watson-xi.vercel.app/og1.png",
       width: 1920,
       height: 1080,
     },
