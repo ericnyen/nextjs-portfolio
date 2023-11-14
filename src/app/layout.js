@@ -9,9 +9,9 @@ export const metadata = {
   description: "Eco Incentive Bot",
   openGraph: {
     title: "🍉",
-    description: "Eco Incentive",
+    description: "",
     url: "https://watsonassistantxi.com",
-    siteName: "",
+    siteName: "Eco Incentive",
     images: {
       url: "https://watson-xi.vercel.app/og1.png",
       width: 1920,
